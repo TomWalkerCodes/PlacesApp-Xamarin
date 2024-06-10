@@ -26,16 +26,17 @@ namespace PlacesApp.Utils
                 },
                 new Place
                 {
-                    Image = "https://i2.wp.com/ilc.oey.mybluehost.me/wp-content/uploads/2020/02/family_treehouse_dominican_village.jpg?resize=1024%2C576&ssl=1",
+                   // Image = "https://i2.wp.com/ilc.oey.mybluehost.me/wp-content/uploads/2020/02/family_treehouse_dominican_village.jpg?resize=1024%2C576&ssl=1",
+                   Image = "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/13/5e/fb/dominican-tree-house.jpg?w=1200&h=-1&s=1",
                     Title = "Dominican Tree House Village",
                     IsPopular = true,
                     SubTitle = "Samana, Dominican Republic",
                     Description = "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
                     Images = new List<string>
                     {
-                        "https://i0.wp.com/dominicantreehousevillage.com/wp-content/uploads/2020/02/IMG_7514_1.jpg?resize=1024%2C683&ssl=1",
-                        "https://i2.wp.com/dominicantreehousevillage.com/wp-content/uploads/2019/12/IMG_7511_72px.jpg?resize=800%2C1200&ssl=1",
-                        "https://i2.wp.com/dominicantreehousevillage.com/wp-content/uploads/2020/02/DSC_5035_1.jpg?resize=819%2C1024&ssl=1"
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/13/5e/fb/dominican-tree-house.jpg?w=800&h=-1&s=1",
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/17/c9/00/73/vip-suite-accommodations.jpg?w=800&h=-1&s=1",
+                        "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1a/13/62/e8/dominican-tree-house.jpg?w=800&h=-1&s=1"
                     }
 
 
