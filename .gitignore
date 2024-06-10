@@ -1,0 +1,9 @@
+src/PlacesApp/.vs
+src/PlacesApp/.idea
+src/PlacesApp/PlacesApp/bin
+src/PlacesApp/PlacesApp/obj
+src/PlacesApp/PlacesApp.Android/bin
+src/PlacesApp/PlacesApp.Android/obj
+src/PlacesApp/PlacesApp.iOS/bin
+src/PlacesApp/PlacesApp.iOS/obj
+*.user
