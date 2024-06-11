@@ -22,12 +22,17 @@
                    FontFamily="{StaticResource InterBold}"
                    VerticalOptions="CenterAndExpand"
                    HorizontalOptions="StartAndExpand"/>
-            <yummy:PancakeView CornerRadius="20"
-                               HasShadow="True"
-                               HeightRequest="40"
-                               WidthRequest="40"
-                               VerticalOptions="CenterAndExpand"
-                               Elevation="1">
+            <!-- Todo:ReviewUI TW 2024-06-11  -->
+            <!-- <yummy:PancakeView CornerRadius="20" -->
+            <!--                    HasShadow="True" -->
+            <!--                    HeightRequest="40" -->
+            <!--                    WidthRequest="40" -->
+            <!--                    VerticalOptions="CenterAndExpand" -->
+            <!--                    Elevation="1"> -->
+                <yummy:PancakeView CornerRadius="20"
+                                   HeightRequest="40"
+                                   WidthRequest="40"
+                                   VerticalOptions="CenterAndExpand">
                 <ffimageloading:CachedImage Source="https://www.venmond.com/demo/vendroid/img/avatar/big.jpg"
                                             Aspect="AspectFill"/>
             </yummy:PancakeView>

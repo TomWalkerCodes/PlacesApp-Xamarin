@@ -20,13 +20,19 @@
                     Command="{prism:GoBack }"
                     HeightRequest="40"
                     CornerRadius="10"/>
-            <yummy:PancakeView CornerRadius="20"
-                               HasShadow="True"
+            <!-- Todo:ReviewUI TW 2024-06-11  -->
+            <!-- <yummy:PancakeView CornerRadius="20" -->
+            <!--                    HasShadow="True" -->
+            <!--                    HorizontalOptions="EndAndExpand" -->
+            <!--                    HeightRequest="40" -->
+            <!--                    WidthRequest="40" -->
+            <!--                    VerticalOptions="CenterAndExpand" -->
+            <!--                    Elevation="1"> -->
+              <yummy:PancakeView CornerRadius="20"
                                HorizontalOptions="EndAndExpand"
                                HeightRequest="40"
                                WidthRequest="40"
-                               VerticalOptions="CenterAndExpand"
-                               Elevation="1">
+                               VerticalOptions="CenterAndExpand">
                 <ffimageloading:CachedImage Source="https://www.venmond.com/demo/vendroid/img/avatar/big.jpg"
                                             Aspect="AspectFill"/>
             </yummy:PancakeView>
@@ -168,12 +174,15 @@
                                <CarouselView.ItemTemplate>
                                    <DataTemplate>
                                        <StackLayout Padding="0, 20">
-                                           <yummy:PancakeView CornerRadius="10"
-                                                              VerticalOptions="FillAndExpand"
-                                                              HasShadow="True"
-                                                              Elevation="5">
+                                           <!-- Todo:ReviewUI TW 2024-06-11  -->
+                                           <!-- <yummy:PancakeView CornerRadius="10" -->
+                                           <!--                    VerticalOptions="FillAndExpand" -->
+                                           <!--                    HasShadow="True" -->
+                                           <!--                    Elevation="5"> -->
+                                               <yummy:PancakeView CornerRadius="10"
+                                                                  VerticalOptions="FillAndExpand">
                                                <ffimageloading:CachedImage Source="{Binding }"
-                                                                       Aspect="AspectFill"/>
+                                                                           Aspect="AspectFill"/>
                                            </yummy:PancakeView>
                                        </StackLayout>
                                    </DataTemplate>

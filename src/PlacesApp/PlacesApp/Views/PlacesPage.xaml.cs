@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using PlacesApp.Controls;
-using PlacesApp.Models;
-using Xamarin.Forms;
+﻿using Xamarin.Forms;
 using Xamarin.Forms.PlatformConfiguration;
 using Xamarin.Forms.PlatformConfiguration.iOSSpecific;
 
