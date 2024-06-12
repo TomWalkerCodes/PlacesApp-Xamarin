@@ -33,11 +33,11 @@ namespace PlacesApp.Droid.Renderers
             for (var i = 0; i < ChildCount; i++)
             {
                 Android.Views.View child = GetChildAt(i);
-
-                if (child is Android.Support.V7.Widget.Toolbar)
-                {
-                    continue;
-                }
+                // Todo:ReviewAndroid TW 2024-06-11  -->
+                // if (child is Android.Support.V7.Widget.Toolbar)
+                // {
+                //     continue;
+                // }
 
                 child.Layout(0, 0, r, b);
             }

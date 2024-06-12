@@ -9,11 +9,15 @@
       HeightRequest="300"
       x:Class="PlacesApp.Components.PlaceComponent">
     <AbsoluteLayout VerticalOptions="FillAndExpand">
-        <yummy:PancakeView HasShadow="True"
-                        x:Name="container"
-                        Elevation="8"
-                        BackgroundColor="{DynamicResource background}"
-                        CornerRadius="10">
+        <!-- Todo:ReviewUI TW 2024-06-11  -->
+        <!-- <yummy:PancakeView HasShadow="True" -->
+        <!--                 x:Name="container" -->
+        <!--                 Elevation="8" -->
+        <!--                 BackgroundColor="{DynamicResource background}" -->
+        <!--                 CornerRadius="10"> -->
+            <yummy:PancakeView x:Name="container"
+                               BackgroundColor="{DynamicResource background}"
+                               CornerRadius="10">
       
         </yummy:PancakeView>
          <yummy:PancakeView x:Name="imgContainer"

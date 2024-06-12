@@ -1,16 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
-using System.ComponentModel;
-using System.Linq;
-using System.Threading.Tasks;
 using PlacesApp.Models;
 using PlacesApp.Utils;
 using PlacesApp.Views;
 using Prism.Commands;
-using Prism.Mvvm;
 using Prism.Navigation;
-using Xamarin.Forms.Internals;
 
 namespace PlacesApp.ViewModels
 {

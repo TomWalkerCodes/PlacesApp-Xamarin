@@ -61,20 +61,22 @@
 
     <Style x:Key="buttonContainerStyle"
            TargetType="yummy:PancakeView">
-        <Setter Property="HasShadow"
-                Value="True"/>
-        <Setter Property="Elevation"
-                Value="5"/>
+            <!-- Todo:ReviewUI TW 2024-06-11  -->
+            <!-- <Setter Property="HasShadow" -->
+            <!--         Value="True"/> -->
+        <!-- <Setter Property="Elevation" -->
+        <!--         Value="5"/> -->
         <Setter Property="CornerRadius"
                 Value="10"/>
     </Style>
 
     <Style x:Key="cardContainerStyle"
            TargetType="yummy:PancakeView">
-        <Setter Property="HasShadow"
-                Value="True"/>
-        <Setter Property="Elevation"
-                Value="5"/>
+        <!-- Todo:ReviewUI TW 2024-06-11  -->
+        <!-- <Setter Property="HasShadow" -->
+        <!--             Value="True"/> -->
+        <!-- <Setter Property="Elevation" -->
+        <!--         Value="5"/> -->
         <Setter Property="CornerRadius"
                 Value="10"/>
         <Setter Property="Opacity"
@@ -105,10 +107,11 @@
 
     <Style x:Key="listOptionLayoutStyle"
            TargetType="yummy:PancakeView">
-        <Setter Property="BorderColor"
-                Value="{StaticResource primaryColor}"/>
-         <Setter Property="BorderThickness"
-                Value="1"/>
+        <!-- Todo:ReviewUI TW 2024-06-11  -->
+        <!-- <Setter Property="BorderColor" -->
+        <!--         Value="{StaticResource primaryColor}"/> -->
+         <!-- <Setter Property="BorderThickness" -->
+         <!--        Value="1"/> -->
         <Setter Property="VerticalOptions"
                 Value="CenterAndExpand"/>
     </Style>
